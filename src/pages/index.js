@@ -114,7 +114,7 @@ export default (() => {
 					>
 						Chen Lev is an Artist, an Illustrator and a Teacher.
 						<br />
-						She presented in museum and gallery exhibitions and published her own illustrated children's book.{" "}
+						She participated in museum and gallery exhibitions and published her own illustrated children's book.{" "}
 						<br />
 						<br />
 						Chen graduated with honors from Bezalel Academy of Art and Design (BFA in Art) and spent a semester in a Student Exchange program at Parsons in New York. Chen got her Teaching Certificate from Seminar Hakiboutzim.
