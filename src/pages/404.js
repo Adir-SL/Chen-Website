@@ -2,6 +2,7 @@ import React from "react";
 import theme from "theme";
 import { Theme, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
@@ -17,6 +18,7 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/5fafc74e8996cc001edcdda2/images/favicon.png?v=2020-11-17T06:27:42.307Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/5fafc74e8996cc001edcdda2/images/favicon.png?v=2020-11-17T06:27:42.307Z"} />
 		</Helmet>
+		<Components.EmbedHTML height="100vh" width="100vw" position="absolute" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
